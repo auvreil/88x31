@@ -67,5 +67,5 @@
   { "name": "birdcat", "url": "https://birdcat.online/", "image": "./buttons/birdcat.gif", "category": "mixed" },
   { "name": "hexaitos", "url": "https://hexaitos.com/", "image": "./buttons/hexaitos.png", "category": "personal" },
   { "name": "houl", "url": "https://houl.wtf/", "image": "./buttons/houl.png", "category": "personal" },
-  { "name": "quiltro", "url": "https://quiltro.org/", "image": "./buttons/quiltro.png", "category": "personal" }
-]
+  { "name": "quiltro", "url": "https://quiltro.org/", "image": "./buttons/quiltro.png", "category": "personal" },
+  { "name": "yzplyz", "url": "https://yzplyz.cool", "image": "https://yzplyz.cool/images/yzplyz88x31.svg", "category": "games" }
