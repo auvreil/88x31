@@ -43,6 +43,7 @@
   { "name": "internetarchive", "url": "https://archive.org", "image": "./buttons/internetarchive.gif", "category": "graphics" },
   { "name": "32bitcafe", "url": "https://32bit.cafe", "image": "./buttons/32bitcafe.gif", "category": "graphics" },
   { "name": "firefox", "url": "https://www.firefox.com/en-US/?redirect_source=mozilla-org", "image": "./buttons/firefoxget.gif", "category": "graphics" },
+  { "name": "neo1", "url": "https://neocities.org/", "image": "./buttons/neo1.gif", "category": "graphics" },
   { "name": "emmondo", "url": "https://emmabelotti.neocities.org", "image": "./buttons/emmondo.gif", "category": "mixed" },
   { "name": "startgame", "url": "https://madukamagica.neocities.org", "image": "./buttons/startgame.png", "category": "mixed" },
   { "name": "pont", "url": "https://pont.cool/", "image": "./buttons/pont.gif", "category": "mixed" },
