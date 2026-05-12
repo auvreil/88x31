@@ -54,5 +54,10 @@
   { "name": "illegaltrading", "url": "https://illegal.trading/", "image": "./buttons/illegaltrading.png", "category": "personal" },
   { "name": "66642", "url": "https://xyno.space/", "image": "./buttons/66642.png", "category": "personal" },
   { "name": "gratgay", "url": "https://grat.gay/", "image": "./buttons/gratgay.gif", "category": "personal" },
-  { "name": "TheresNoTime", "url": "https://www.theresnotime.co.uk/", "image": "./buttons/TheresNoTime.png", "category": "personal" }
+  { "name": "TheresNoTime", "url": "https://www.theresnotime.co.uk/", "image": "./buttons/TheresNoTime.png", "category": "personal" },
+  { "name": "lucida", "url": "https://lucida.to", "image": "./buttons/lucida.gif", "category": "graphics" },
+  { "name": "cve", "url": "https://cve.cx", "image": "./buttons/cve.png", "category": "personal" },
+  { "name": "sdomi", "url": "https://sdomi.pl", "image": "./buttons/sdomi.bmp", "category": "personal" },
+  { "name": "wikipedia", "url": "https://wikipedia.org", "image": "./buttons/wikipedia.gif", "category": "graphics" },
+  { "name": "byte", "url": "https://byte.at.awawa.club/", "image": "./buttons/byte.jpg", "category": "personal" }
 ]
