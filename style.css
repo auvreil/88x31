@@ -135,18 +135,17 @@ hr {
   padding: 12px;
   background: var(--bg2);
   border: 1px solid var(--border);
+  align-content: flex-start; 
 }
 
 .button-grid a {
-  display: inline-block;
+  display: block; 
+  line-height: 0;  
   border: 1px solid var(--border);
   transition: border-color 0.1s;
   padding: 1px;
   background: var(--panel);
-}
-
-.button-grid a:hover {
-  border-color: var(--accent1);
+  height: 35px;   
 }
 
 .button-grid img {
@@ -154,6 +153,7 @@ hr {
   height: 31px;
   image-rendering: pixelated;
   display: block;
+  background: #222; /*placeholder*/
 }
 
 a {
