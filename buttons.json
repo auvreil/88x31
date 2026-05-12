@@ -63,5 +63,9 @@
   { "name": "doben", "url": "https://odoben.space", "image": "./buttons/doben.png", "category": "personal" },
   { "name": "theysosmall", "url": "https://smolderg.xyz", "image": "./buttons/theysosmall.png", "category": "personal" },
   { "name": "niss", "url": "https://yummy.cricket", "image": "./buttons/niss.png", "category": "personal" },
-  { "name": "arch", "url": "https://arch.dog", "image": "./buttons/arch.png", "category": "personal" }
+  { "name": "arch", "url": "https://arch.dog", "image": "./buttons/arch.png", "category": "personal" },
+  { "name": "birdcat", "url": "https://birdcat.online/", "image": "./buttons/birdcat.gif", "category": "mixed" },
+  { "name": "hexaitos", "url": "https://hexaitos.com/", "image": "./buttons/hexaitos.png", "category": "personal" },
+  { "name": "houl", "url": "https://houl.wtf/", "image": "./buttons/houl.png", "category": "personal" },
+  { "name": "quiltro", "url": "https://quiltro.org/", "image": "./buttons/quiltro.png", "category": "personal" }
 ]
