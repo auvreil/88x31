@@ -59,5 +59,9 @@
   { "name": "cve", "url": "https://cve.cx", "image": "./buttons/cve.png", "category": "personal" },
   { "name": "sdomi", "url": "https://sdomi.pl", "image": "./buttons/sdomi.bmp", "category": "personal" },
   { "name": "wikipedia", "url": "https://wikipedia.org", "image": "./buttons/wikipedia.gif", "category": "graphics" },
-  { "name": "byte", "url": "https://byte.at.awawa.club/", "image": "./buttons/byte.jpg", "category": "personal" }
+  { "name": "byte", "url": "https://byte.at.awawa.club/", "image": "./buttons/byte.jpg", "category": "personal" },
+  { "name": "doben", "url": "https://odoben.space", "image": "./buttons/doben.png", "category": "personal" },
+  { "name": "theysosmall", "url": "https://smolderg.xyz", "image": "./buttons/theysosmall.png", "category": "personal" },
+  { "name": "niss", "url": "https://yummy.cricket", "image": "./buttons/niss.png", "category": "personal" },
+  { "name": "arch", "url": "https://arch.dog", "image": "./buttons/arch.png", "category": "personal" }
 ]
