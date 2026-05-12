@@ -49,5 +49,9 @@
   { "name": "xaselgio", "url": "https://xaselgio.net/", "image": "./buttons/xaselgio.png", "category": "mixed" },
   { "name": "jbtn", "url": "https://jbc.lol/", "image": "./buttons/jbtn.gif", "category": "mixed" },
   { "name": "pixeldesu", "url": "https://pixelde.su/", "image": "./buttons/pixeldesu.png", "category": "mixed" },
-  { "name": "polyducks", "url": "https://polyducks.neocities.org/", "image": "./buttons/polyducks.gif", "category": "mixed" }
+  { "name": "polyducks", "url": "https://polyducks.neocities.org/", "image": "./buttons/polyducks.gif", "category": "mixed" },
+  { "name": "illegaltrading", "url": "https://illegal.trading/", "image": "./buttons/illegaltrading.png", "category": "personal" },
+  { "name": "66642", "url": "https://xyno.space/", "image": "./buttons/66642.png", "category": "personal" },
+  { "name": "gratgay", "url": "https://grat.gay/", "image": "./buttons/gratgay.gif", "category": "personal" },
+  { "name": "TheresNoTime", "url": "https://www.theresnotime.co.uk/", "image": "./buttons/TheresNoTime.png", "category": "personal" }
 ]
