@@ -4,158 +4,47 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The 88x31 Project — Changelog</title>
-
-  <style>
-    :root {
-      --bg: #0f1117;
-      --panel: #171b24;
-      --border: #2a3142;
-      --text: #e7ecf3;
-      --muted: #9aa6bd;
-      --accent: #7cc4ff;
-      --accent2: #8dffb1;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      padding: 40px 20px;
-      background:
-        radial-gradient(circle at top left, #1c2333 0%, transparent 30%),
-        radial-gradient(circle at bottom right, #182028 0%, transparent 30%),
-        var(--bg);
-      color: var(--text);
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      line-height: 1.6;
-    }
-
-    .container {
-      max-width: 850px;
-      margin: auto;
-    }
-
-    .header {
-      margin-bottom: 28px;
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 16px;
-    }
-
-    .header h1 {
-      margin: 0;
-      font-size: 2.2rem;
-      letter-spacing: -1px;
-    }
-
-    .header p {
-      margin-top: 10px;
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    .changelog {
-      display: flex;
-      flex-direction: column;
-      gap: 18px;
-    }
-
-    .entry {
-      background: var(--panel);
-      border: 1px solid var(--border);
-      border-left: 4px solid var(--accent);
-      border-radius: 12px;
-      padding: 18px 20px;
-      transition: 0.2s ease;
-    }
-
-    .entry:hover {
-      transform: translateY(-2px);
-      border-color: #3b4861;
-    }
-
-    .entry-date {
-      color: var(--accent);
-      font-size: 0.85rem;
-      font-weight: bold;
-      margin-bottom: 10px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-    }
-
-    .entry ul {
-      margin: 0;
-      padding-left: 18px;
-    }
-
-    .entry li {
-      margin-bottom: 8px;
-    }
-
-    .community {
-      color: var(--accent2);
-      font-weight: bold;
-    }
-
-    .footer {
-      margin-top: 30px;
-      color: var(--muted);
-      font-size: 0.85rem;
-      text-align: center;
-    }
-
-    code {
-      background: #222938;
-      padding: 2px 6px;
-      border-radius: 5px;
-      color: #b9d8ff;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+<div class="page-wrapper">
 
-  <div class="container">
+  <div class="changelog-header">
+    <h1>The 88x31 Project — Changelog</h1>
+    <p class="subtitle">A log of updates, fixes, and additions.</p>
+  </div>
 
-    <div class="header">
-      <h1>The 88x31 Project — Changelog</h1>
-      <p>
-        Community submitted bug fixes are marked with
-        <span class="community">👤</span>
-      </p>
-    </div>
+  <h2 class="community-note">
+    Community submitted bug fixes are marked with <span class="community">👤</span>
+  </h2>
 
-    <div class="changelog">
+  <div class="nav">
+    <a href="index.html">← Back to Index</a>
+  </div>
+  <hr class="nav-divider">
 
-      <div class="entry">
-        <div class="entry-date">
-          May 11, 2026 - 7:55 PM PST
-        </div>
+  <h2>Updates</h2>
 
-        <ul>
-          <li>
-            Moved all buttons into a .json file to reduce page lag and improve loading performance.
-          </li>
+  <div class="changelog">
 
-          <li>
-            Fixed dannarchy.com incorrectly using the
-             combatbaby.neocities.org domain
-            <span class="community">👤</span>
-          </li>
-
-          <li>
-            Added several new 88x31 buttons to the archive.
-          </li>
-        </ul>
-      </div>
-
-    </div>
-
-    <div class="footer">
-      The 88x31 Project — preserving old web culture one button at a time.
+    <div class="entry">
+      <div class="entry-date">May 11, 2026 — 7:55 PM PST</div>
+      <ul>
+        <li>Moved all buttons into a <code>.json</code> file to reduce page lag and improve loading performance.</li>
+        <li>Fixed <code>dannarchy.com</code> incorrectly using the <code>combatbaby.neocities.org</code> domain. <span class="community">👤</span></li>
+        <li>Added several new 88x31 buttons to the archive.</li>
+      </ul>
     </div>
 
   </div>
 
+  <footer class="disclaimer">
+    <p>The 88x31 Project, where I try to preserve old web culture one button at a time.</p>
+    <a href="https://auvreil.github.io/88x31/">
+      <img src="./buttons/The88x31Project.gif" alt="The 88x31 Project" loading="lazy">
+    </a>
+  </footer>
+
+</div>
 </body>
 </html>
