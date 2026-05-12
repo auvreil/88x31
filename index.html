@@ -82,9 +82,18 @@ async function loadButtons() {
     const response = await fetch('./buttons.json');
     const buttons = await response.json();
 
+    const fragments = {
+      personal: document.createDocumentFragment(),
+      art: document.createDocumentFragment(),
+      writing: document.createDocumentFragment(),
+      games: document.createDocumentFragment(),
+      music: document.createDocumentFragment(),
+      graphics: document.createDocumentFragment(),
+      mixed: document.createDocumentFragment()
+    };
+
     buttons.forEach(btn => {
-      const grid = document.getElementById(`grid-${btn.category}`);
-      if (grid) {
+      if (fragments[btn.category]) {
         const link = document.createElement('a');
         link.href = btn.url;
         link.target = "_blank";
@@ -92,18 +101,25 @@ async function loadButtons() {
         const img = document.createElement('img');
         img.src = btn.image;
         img.alt = btn.name;
-        img.loading = "lazy"; // important!!! need lazy loading to keep it smooth
+        img.loading = "lazy";
+        img.width = 88;  
+        img.height = 31; 
         
         link.appendChild(img);
-        grid.appendChild(link);
+        fragments[btn.category].appendChild(link);
       }
     });
+
+    Object.keys(fragments).forEach(cat => {
+      const grid = document.getElementById(`grid-${cat}`);
+      if (grid) grid.appendChild(fragments[cat]);
+    });
+
   } catch (error) {
     console.error("Error loading buttons:", error);
   }
 }
-
-loadButtons();
+loadButtons(); 
 </script>
 
 </body>
