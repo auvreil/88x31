@@ -204,6 +204,14 @@ a:hover {
   color: var(--bg);
 }
 
+.button-grid img {
+  background: #222; /* darkie placeholder while loading */
+  display: inline-block;
+  min-width: 88px;
+  min-height: 31px;
+  margin: 2px;
+}
+
 @media (max-width: 480px) {
   h1 { font-size: 20px; }
   h1.subtitle { font-size: 13px; }
