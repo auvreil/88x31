@@ -49,4 +49,5 @@
   { "name": "xaselgio", "url": "https://xaselgio.net/", "image": "./buttons/xaselgio.png", "category": "mixed" },
   { "name": "jbtn", "url": "https://jbc.lol/", "image": "./buttons/jbtn.gif", "category": "mixed" },
   { "name": "pixeldesu", "url": "https://pixelde.su/", "image": "./buttons/pixeldesu.png", "category": "mixed" }
+  { "name": "polyducks", "url": "https://polyducks.neocities.org/", "image": "./buttons/polyducks.gif", "category": "mixed" }
 ]
