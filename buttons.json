@@ -72,6 +72,6 @@
   { "name": "epicmax", "url": "https://epicmax.neocities.org/", "image": "./buttons/epicmax.png", "category": "personal" },
   { "name": "goatygoats", "url": "https://goatygoats.com/", "image": "./buttons/goatygoats.gif", "category": "personal" },
   { "name": "dexthedragon", "url": "https://dexthedragon.co.uk/", "image": "./buttons/dexthedragon.png", "category": "mixed" },
-  { "name": "cavernofremembrance", "url": "https://cavernofremembrance.neocities.org/home", "image": "./buttons/dexthedragon.png", "category": "mixed" },
+  { "name": "cavernofremembrance", "url": "https://cavernofremembrance.neocities.org/home", "image": "./buttons/cavernofremembrance.gif", "category": "mixed" },
   { "name": "sirlan", "url": "https://dragon-vi.be/", "image": "./buttons/sirlan.gif", "category": "mixed" }
 ]
