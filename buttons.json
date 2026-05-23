@@ -73,5 +73,13 @@
   { "name": "goatygoats", "url": "https://goatygoats.com/", "image": "./buttons/goatygoats.gif", "category": "personal" },
   { "name": "dexthedragon", "url": "https://dexthedragon.co.uk/", "image": "./buttons/dexthedragon.png", "category": "mixed" },
   { "name": "cavernofremembrance", "url": "https://cavernofremembrance.neocities.org/home", "image": "./buttons/cavernofremembrance.gif", "category": "mixed" },
-  { "name": "sirlan", "url": "https://dragon-vi.be/", "image": "./buttons/sirlan.gif", "category": "mixed" }
+  { "name": "sirlan", "url": "https://dragon-vi.be/", "image": "./buttons/sirlan.gif", "category": "mixed" },
+  { "name": "pangpangclub", "url": "https://pangpangclub.com", "image": "./buttons/pangpangclub.gif", "category": "games" },
+  { "name": "conne", "url": "https://turbo.conne.fr/", "image": "./buttons/conne.gif", "category": "personal" },
+  { "name": "proudmorning", "url": "https://proudmorning.neocities.org/", "image": "./buttons/proudmorning.png", "category": "personal" },
+  { "name": "polyduckscouk", "url": "https://polyducks.co.uk/", "image": "./buttons/polyduckscouk.gif", "category": "personal" },
+  { "name": "eggpet", "url": "https://eggpet.neocities.org/", "image": "./buttons/eggpet.gif", "category": "graphics" },
+  { "name": "1bbb", "url": "https://1bbb.neocities.org/", "image": "./buttons/1bbb.gif", "category": "art" },
+  { "name": "NokiaArtJam", "url": "https://polyducks.co.uk/pages/nokia-art-jam/", "image": "./buttons/NokiaArtJam.gif", "category": "art" },
+  { "name": "fungineocities", "url": "https://fungi.neocities.org/", "image": "./buttons/fungineocities.gif", "category": "art" }
 ]
