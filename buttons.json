@@ -38,7 +38,7 @@
   { "name": "tea", "url": "https://teamakes.games/", "image": "./buttons/tea.gif", "category": "games" },
   { "name": "l68k", "url": "https://l68k.com", "image": "./buttons/l68k.png", "category": "music" },
   { "name": "loyaltyfreakmusic", "url": "https://loyaltyfreakmusic.com/", "image": "./buttons/loyaltyfreakmusic.gif", "category": "music" },
-  { "name": "nerdmusic", "url": "https://nerdmusic.net", "image": "./buttons/nerdmusic.gif", "category": "music" },
+  { "name": "nerdmusic", "url": "https://www.nerdmusic.net", "image": "./buttons/nerdmusic.gif", "category": "music" },
   { "name": "99gifshop", "url": "https://99gifshop.neocities.org/", "image": "./buttons/99gifshop.png", "category": "graphics" },
   { "name": "internetarchive", "url": "https://archive.org", "image": "./buttons/internetarchive.gif", "category": "graphics" },
   { "name": "32bitcafe", "url": "https://32bit.cafe", "image": "./buttons/32bitcafe.gif", "category": "graphics" },
