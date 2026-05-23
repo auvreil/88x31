@@ -1,0 +1,35 @@
+name: Respectful Link Checker
+on:
+  schedule:
+    - cron: "0 0 1 * *"
+  workflow_dispatch:
+
+jobs:
+  link-checker:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write 
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Link Checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >
+            --verbose 
+            --method head 
+            --max-concurrency 1 
+            --accept 200,403,429 
+            --user-agent "The-88x31-Project-Bot"
+            "./buttons.json"
+          fail: false 
+
+      - name: Create Issue From File
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v6
+        with:
+          title: "💀 Possible Dead Link!"
+          content-filepath: ./lychee/out.md
+          labels: report, automated
