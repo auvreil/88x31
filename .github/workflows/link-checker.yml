@@ -20,9 +20,9 @@ jobs:
           args: >
             --verbose 
             --method head 
-            --max-concurrency 1 
+            --max-concurrency 3 
             --accept 200,403,429 
-            --user-agent "The-88x31-Project-Bot"
+            --user-agent "The-88x31-Project-Bot (https://auvreil.github.io/88x31/) (@kurvexa.proton.me)"
             "./buttons.json"
           fail: false 
 
