@@ -82,5 +82,6 @@
   { "name": "1bbb", "url": "https://1bbb.neocities.org/", "image": "./buttons/1bbb.gif", "category": "art" },
   { "name": "NokiaArtJam", "url": "https://polyducks.co.uk/pages/nokia-art-jam/", "image": "./buttons/NokiaArtJam.gif", "category": "art" },
   { "name": "fungineocities", "url": "https://fungi.neocities.org/", "image": "./buttons/fungineocities.gif", "category": "art" },
-  { "name": "mycorneroftheinternet", "url": "https://genos303.nekoweb.org/", "image": "./buttons/mycorneroftheinternet.png", "category": "personal" }
+  { "name": "mycorneroftheinternet", "url": "https://genos303.nekoweb.org/", "image": "./buttons/mycorneroftheinternet.png", "category": "personal" },
+  { "name": "tabletop", "url": "https://incunabuli.com/", "image": "./buttons/tabletop.png", "category": "games" }
 ]
