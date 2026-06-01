@@ -85,5 +85,7 @@
   { "name": "mycorneroftheinternet", "url": "https://genos303.nekoweb.org/", "image": "./buttons/mycorneroftheinternet.png", "category": "personal" },
   { "name": "tabletop", "url": "https://incunabuli.com/", "image": "./buttons/tabletop.png", "category": "games" },
   { "name": "walterfish", "url": "https://walterfish.neocities.org/", "image": "./buttons/walterfish.png", "category": "personal" },
-  { "name": "crybaby", "url": "https://cryb4by.neocities.org/", "image": "./buttons/crybaby.gif", "category": "personal" }
+  { "name": "crybaby", "url": "https://cryb4by.neocities.org/", "image": "./buttons/crybaby.gif", "category": "personal" },
+  { "name": "qgb", "url": "https://queergamesbundle.itch.io/", "image": "./buttons/qgb.gif", "category": "games" },
+  { "name": "nyanseong", "url": "https://nyanseong.neocities.org/", "image": "./buttons/nyanseong.png", "category": "personal" }
 ]
