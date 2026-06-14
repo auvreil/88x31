@@ -87,5 +87,7 @@
   { "name": "walterfish", "url": "https://walterfish.neocities.org/", "image": "./buttons/walterfish.png", "category": "personal" },
   { "name": "crybaby", "url": "https://cryb4by.neocities.org/", "image": "./buttons/crybaby.gif", "category": "personal" },
   { "name": "qgb", "url": "https://queergamesbundle.itch.io/", "image": "./buttons/qgb.gif", "category": "games" },
-  { "name": "nyanseong", "url": "https://nyanseong.neocities.org/", "image": "./buttons/nyanseong.png", "category": "personal" }
+  { "name": "nyanseong", "url": "https://nyanseong.neocities.org/", "image": "./buttons/nyanseong.png", "category": "personal" },
+  { "name": "netizen", "url": "https://netizen.town/", "image": "./buttons/netizen.png", "category": "graphics" },
+  { "name": "R74n", "url": "https://r74n.com", "image": "./buttons/r74n.png", "category": "games" }
 ]
