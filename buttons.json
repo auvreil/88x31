@@ -76,7 +76,7 @@
   { "name": "sirlan", "url": "https://dragon-vi.be/", "image": "./buttons/sirlan.gif", "category": "mixed" },
   { "name": "pangpangclub", "url": "https://pangpangclub.com", "image": "./buttons/pangpangclub.gif", "category": "games" },
   { "name": "conne", "url": "https://turbo.conne.fr/", "image": "./buttons/conne.gif", "category": "personal" },
-  { "name": "proudmorning", "url": "https://proudmorning.neocities.org/", "image": "./buttons/proudmorning.png", "category": "personal" },
+  { "name": "proudmorning", "url": "https://blog.werder.fyi/", "image": "./buttons/proudmorning.png", "category": "personal" },
   { "name": "polyduckscouk", "url": "https://polyducks.co.uk/", "image": "./buttons/polyduckscouk.gif", "category": "personal" },
   { "name": "eggpet", "url": "https://eggpet.neocities.org/", "image": "./buttons/eggpet.gif", "category": "graphics" },
   { "name": "1bbb", "url": "https://1bbb.neocities.org/", "image": "./buttons/1bbb.gif", "category": "art" },
