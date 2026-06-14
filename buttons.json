@@ -103,5 +103,6 @@
   { "name": "buttonbutton", "url": "https://buttonsthebeans.fun/", "image": "./buttons/buttonbutton.png", "category": "art" },
   { "name": "swee1", "url": "https://swee.codes/", "image": "./buttons/swee1.png", "category": "personal" },
   { "name": "swee2", "url": "https://sweeux.org", "image": "./buttons/swee2.png", "category": "graphics" },
+  { "name": "oxdino", "url": "https://hexadecimaldinosaur.com/", "image": "./buttons/oxdino.gif", "category": "personal" },
   { "name": "calciume", "url": "https://calciu.me/", "image": "./buttons/calciume.gif", "category": "personal" }
 ]
