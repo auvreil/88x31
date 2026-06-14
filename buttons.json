@@ -96,7 +96,7 @@
   { "name": "zomboid", "url": "https://zomboid.pro/", "image": "./buttons/zomboid.png", "category": "personal" },
   { "name": "clubpenguin", "url": "https://www.cpjourney.net/", "image": "./buttons/clubpenguin.png", "category": "games" },
   { "name": "thermia", "url": "https://girlthi.ng/~thermia/", "image": "./buttons/thermia.gif", "category": "personal" },
-  { "name": "beehive", "url": "https://beehive.gay/", "image": "./buttons/beehive.png", "category": "personal" }
-  { "name": "winstalgia", "url": "https://columns.neocities.org/home", "image": "./buttons/winstalgia.gif", "category": "personal" }
+  { "name": "beehive", "url": "https://beehive.gay/", "image": "./buttons/beehive.png", "category": "personal" },
+  { "name": "winstalgia", "url": "https://columns.neocities.org/home", "image": "./buttons/winstalgia.gif", "category": "personal" },
   { "name": "klubhouse", "url": "https://keysklubhouse.com/", "image": "./buttons/klubhouse.gif", "category": "personal" }
 ]
