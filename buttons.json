@@ -89,5 +89,6 @@
   { "name": "qgb", "url": "https://queergamesbundle.itch.io/", "image": "./buttons/qgb.gif", "category": "games" },
   { "name": "nyanseong", "url": "https://nyanseong.neocities.org/", "image": "./buttons/nyanseong.png", "category": "personal" },
   { "name": "netizen", "url": "https://netizen.town/", "image": "./buttons/netizen.png", "category": "graphics" },
-  { "name": "R74n", "url": "https://r74n.com", "image": "./buttons/r74n.png", "category": "games" }
+  { "name": "R74n", "url": "https://r74n.com", "image": "./buttons/r74n.png", "category": "games" },
+  { "name": "auvreilshome", "url": "https://auvreil.neocities.org/", "image": "./buttons/auvreilshome.gif", "category": "personal" }
 ]
