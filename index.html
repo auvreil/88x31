@@ -49,6 +49,7 @@
   <a href="#art">Art / Creative</a> |
   <a href="#writing">Writing</a> |
   <a href="#games">Games / Dev</a> |
+  <a href="#uncategorized">Uncategorized</a> |
   <a href="#music">Music / Audio</a> |
   <a href="#graphics">Graphics / Resources</a> |
   <a href="#mixed">Mixed</a> 
@@ -68,6 +69,13 @@
 <hr>
 <h2 id="games">Games / Dev</h2>
 <div class="button-grid" id="grid-games"></div>
+
+<hr>
+<h2 id="uncategorized">Uncategorized</h2>
+<p style="font-family: 'VT323', monospace; font-size: 18px; color: var(--text); margin-top: -10px; margin-bottom: 15px;">
+  Know where these belong? Please submit your sortings to help get them into a proper category!
+</p>
+<div class="button-grid" id="grid-uncategorized"></div>
   
 <hr>
 <h2 id="music">Music / Audio</h2>
@@ -107,7 +115,8 @@ async function loadButtons() {
       games: document.createDocumentFragment(),
       music: document.createDocumentFragment(),
       graphics: document.createDocumentFragment(),
-      mixed: document.createDocumentFragment()
+      mixed: document.createDocumentFragment(),
+      uncategorized: document.createDocumentFragment()
     };
 
     buttons.forEach(btn => {
@@ -128,17 +137,4 @@ async function loadButtons() {
       }
     });
 
-    Object.keys(fragments).forEach(cat => {
-      const grid = document.getElementById(`grid-${cat}`);
-      if (grid) grid.appendChild(fragments[cat]);
-    });
-
-  } catch (error) {
-    console.error("Error loading buttons:", error);
-  }
-}
-loadButtons(); 
-</script>
-
-</body>
-</html>
+    Object.keys(fragments).forEach
