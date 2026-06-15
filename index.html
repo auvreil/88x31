@@ -137,4 +137,17 @@ async function loadButtons() {
       }
     });
 
-    Object.keys(fragments).forEach
+    Object.keys(fragments).forEach(cat => {
+      const grid = document.getElementById(`grid-${cat}`);
+      if (grid) grid.appendChild(fragments[cat]);
+    });
+
+  } catch (error) {
+    console.error("Error loading buttons:", error);
+  }
+}
+loadButtons(); 
+</script>
+
+</body>
+</html>
