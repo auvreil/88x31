@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&family=Silkscreen:wght@400;700&display=swap');
 
 :root {
-  --bg: #0a0a14; /*this is such tuff color WHATHJTTYWOW */
+  --bg: #0a0a14; 
   --bg2: #0f0f1e;
   --panel: #0d0d22;
   --border: #2a2a5a;
@@ -35,8 +35,6 @@ body {
   margin: 0 auto;
   padding: 20px 16px 60px;
 }
-
-/* headeintentionally */
 .site-header {
   text-align: center;
   padding: 30px 10px 10px;
@@ -64,8 +62,6 @@ h1.subtitle {
   98% { opacity: 0.7; }
   99% { opacity: 1; }
 }
-
-/* why are people looking here anyways */
 h2.notice {
   font-family: 'VT323', monospace;
   font-size: 16px;
@@ -76,8 +72,6 @@ h2.notice {
   padding: 4px 10px;
   border-left: 2px solid var(--accent4);
 }
-
-/* nav just links, no labels, no chrome */
 .nav {
   text-align: center;
   margin: 28px 0 20px;
@@ -142,18 +136,21 @@ hr {
   display: block; 
   line-height: 0;  
   border: 1px solid var(--border);
-  transition: border-color 0.1s;
   padding: 1px;
   background: var(--panel);
-/*  height: 35px; */
+  width: 92px;  
+  height: 35px;  
+  box-sizing: border-box; 
 }
+
 
 .button-grid img {
   width: 88px;
   height: 31px;
- /* image-rendering: pixelated; */ 
   display: block;
-  background: #222; /*placeholder*/
+  image-rendering: pixelated;
+  image-rendering: crisp-edges; /*ff  fallback */
+  background: #222; 
 }
 
 a {
@@ -164,8 +161,6 @@ a {
 a:hover {
   color: var(--accent1);
 }
-
-/* footer — bare */
 .disclaimer {
   margin-top: 60px;
   padding: 16px 0 0;
@@ -204,13 +199,15 @@ a:hover {
   color: var(--bg);
 }
 
+/*
 .button-grid img {
-  background: #222; /* darkie placeholder while loading */
+  background: #222; 
   display: inline-block;
   min-width: 88px;
   min-height: 31px;
   margin: 2px;
 }
+*/
 
 @media (max-width: 480px) {
   h1 { font-size: 20px; }
