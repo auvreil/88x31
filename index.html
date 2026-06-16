@@ -114,6 +114,7 @@ async function loadButtons() {
     const buttons = await response.json();
 
     const fragments = {
+      friends: document.createDocumentFragment(),
       personal: document.createDocumentFragment(),
       art: document.createDocumentFragment(),
       writing: document.createDocumentFragment(),
