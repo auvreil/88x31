@@ -145,13 +145,13 @@ hr {
   transition: border-color 0.1s;
   padding: 1px;
   background: var(--panel);
-  height: 35px;   
+/*  height: 35px; */
 }
 
 .button-grid img {
   width: 88px;
   height: 31px;
-  image-rendering: pixelated;
+ /* image-rendering: pixelated; */ 
   display: block;
   background: #222; /*placeholder*/
 }
