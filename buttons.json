@@ -155,5 +155,17 @@
   { "name": "fg", "url": "https://flowergame.net/", "image": "./buttons/fg.png", "category": "uncategorized" },
   { "name": "mf", "url": "https://forum.melonland.net/", "image": "./buttons/mf.gif", "category": "uncategorized" },
   { "name": "davidsocial", "url": "https://davidsocial.com", "image": "./buttons/davidsocial.png", "category": "uncategorized" },
-  { "name": "badge", "url": "https://hjonk.me/", "image": "./buttons/badge.gif", "category": "uncategorized" }
+  { "name": "badge", "url": "https://hjonk.me/", "image": "./buttons/badge.gif", "category": "uncategorized" },
+  { "name": "windigone", "url": "https://windigone.nekoweb.org/", "image": "./buttons/windigone.gif", "category": "uncategorized" },
+  { "name": "moosyu", "url": "https://moosyu.github.io/", "image": "./buttons/moosyu.png", "category": "uncategorized" },
+  { "name": "calico", "url": "https://calicocritter.nekoweb.org/", "image": "./buttons/calico.png", "category": "uncategorized" },
+  { "name": "axel", "url": "https://axel.nekoweb.org", "image": "./buttons/axel.gif", "category": "uncategorized" },
+  { "name": "dee", "url": "https://thxdee.neocities.org", "image": "./buttons/dee.gif", "category": "uncategorized" },
+  { "name": "testtubesterone", "url": "https://testtubesterone.nekoweb.org/", "image": "./buttons/testtubesterone.png", "category": "uncategorized" },
+  { "name": "tsuku-btn-proto1", "url": "https://tsukuyomi.nekoweb.org", "image": "./buttons/tsuku-btn-proto1.png", "category": "uncategorized" },
+  { "name": "knox", "url": "https://knoxstation.neocities.org", "image": "./buttons/knox.gif", "category": "uncategorized" },
+  { "name": "dolphin", "url": "https://maddoxxing.neocities.org", "image": "./buttons/dolphin.png", "category": "uncategorized" },
+  { "name": "button_10", "url": "https://scythe.nekoweb.org", "image": "./buttons/button_10.png", "category": "uncategorized" },
+  { "name": "bang1338", "url": "https://bang1338.nekoweb.org", "image": "./buttons/bang1338.gif", "category": "uncategorized" },
+  { "name": "ooo", "url": "https://oooeee.nekoweb.org", "image": "./buttons/ooo.png", "category": "uncategorized" }
 ]
