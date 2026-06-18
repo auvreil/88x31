@@ -206,5 +206,6 @@
   { "name": "rejectconvenience", "url": "https://rejectconvenience.com/", "image": "./buttons/rejectconvenience.jpg", "category": "uncategorized" },
   { "name": "LuvstarKeiButton-1", "url": "https://luvstarkei.com/", "image": "./buttons/LuvstarKeiButton-1.webp", "category": "uncategorized" },
   { "name": "button4", "url": "https://nekoweb.org/", "image": "./buttons/button4.webp", "category": "uncategorized" },
-  { "name": "nonexistent", "url": "https://nonexistentfandomsfandom.neocities.org/", "image": "./buttons/nonexistent.gif", "category": "uncategorized" }
+  { "name": "nonexistent", "url": "https://nonexistentfandomsfandom.neocities.org/", "image": "./buttons/nonexistent.gif", "category": "uncategorized" },
+  { "name": "xenon", "url": "https://xenon-starz.neocities.org/", "image": "./buttons/xenon.gif", "category": "friends" }
 ]
