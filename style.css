@@ -169,15 +169,19 @@ hr {
   border: 1px solid var(--border);
   padding: 1px;
   background: var(--panel);
+  /*
   width: 92px;  
   height: 35px;  
   box-sizing: border-box; 
+  */
 }
 
 .button-grid img {
   width: 88px;
   height: 31px;
   display: block;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
   image-rendering: pixelated;
   image-rendering: crisp-edges;
   background: #222; 
@@ -213,7 +217,10 @@ a:hover {
   display: block;
   width: 88px;
   height: 31px;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
   image-rendering: pixelated;
+  image-rendering: crisp-edges;
 }
 
 ::-webkit-scrollbar {
@@ -285,6 +292,8 @@ a:hover {
 
 .preview-pane img {
   display: block !important;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
   image-rendering: pixelated;
   image-rendering: crisp-edges;
 }
