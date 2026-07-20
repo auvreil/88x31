@@ -8,5 +8,6 @@ Of course, this is very different from the main page. I will make this actually 
 | Changed all outdated domains to their new redirects
 | Added new site(s)
 | Changed various sites' genres
+| Disabled multiple sites
 | Created a disabled page file
 | Created a changelog page file
