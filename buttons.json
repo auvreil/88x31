@@ -163,7 +163,7 @@
   { "name": "testtubesterone", "url": "https://testtubesterone.nekoweb.org/", "image": "./buttons/testtubesterone.png", "category": "uncategorized" },
   { "name": "knox", "url": "https://knoxstation.neocities.org", "image": "./buttons/knox.gif", "category": "uncategorized" },
   { "name": "dolphin", "url": "https://maddoxxing.neocities.org", "image": "./buttons/dolphin.png", "category": "uncategorized" },
-  { "name": "button_10", "url": "./pageDisabled.txt", "image": "./buttons/Disabled.gif", "category": "uncategorized", "_comment": "org domain: scythe.nekoweb.org"},
+  { "name": "button_10", "url": "./pageDisabled.txt", "image": "./buttons/Disabled.gif", "category": "uncategorized", "_comment:" "org domain: scythe.nekoweb.org"},
   { "name": "bang1338", "url": "https://bang1338.nekoweb.org", "image": "./buttons/bang1338.gif", "category": "uncategorized" },
   { "name": "ooo", "url": "https://oooeee.nekoweb.org", "image": "./buttons/ooo.png", "category": "uncategorized" },
   { "name": "box", "url": "https://corq.neocities.org/", "image": "./buttons/box.png", "category": "uncategorized" },
