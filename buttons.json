@@ -90,7 +90,7 @@
   { "name": "nyanseong", "url": "https://nyanseong.neocities.org/", "image": "./buttons/nyanseong.png", "category": "personal" },
   { "name": "netizen", "url": "https://netizen.town/", "image": "./buttons/netizen.png", "category": "friends" },
   { "name": "R74n", "url": "https://r74n.com", "image": "./buttons/r74n.png", "category": "games" },
-  { "name": "auvreilshome", "url": "https://auvreil.neocities.org/", "image": "./buttons/auvreilshome.gif", "category": "friends" },
+  { "name": "auvreilshome", "url": "pageDisabled.txt", "image": "./buttons/Disabled.gif", "category": "friends" },
   { "name": "netizenforum", "url": "https://forum.netizen.town/bb/", "image": "./buttons/netizenforum.png", "category": "friends" },
   { "name": "horde", "url": "https://horde.zone", "image": "./buttons/horde.png", "category": "friends" },
   { "name": "zomboid", "url": "https://zomboid.pro/", "image": "./buttons/zomboid.png", "category": "friends" },
