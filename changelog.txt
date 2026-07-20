@@ -6,6 +6,7 @@ Of course, this is very different from the main page. I will make this actually 
 
 {7/20/2026}
 | Changed all outdated domains to their new redirects
-| Added 1 new site
+| Added new site(s)
+| Changed various sites' genres
 | Created a disabled page file
 | Created a changelog page file
