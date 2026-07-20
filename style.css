@@ -180,11 +180,14 @@ hr {
   width: 88px;
   height: 31px;
   display: block;
+  background: #222; 
+}
+
+img {
   image-rendering: -moz-crisp-edges;
   image-rendering: -webkit-optimize-contrast;
   image-rendering: pixelated;
   image-rendering: crisp-edges;
-  background: #222; 
 }
 
 a {
@@ -217,10 +220,6 @@ a:hover {
   display: block;
   width: 88px;
   height: 31px;
-  image-rendering: -moz-crisp-edges;
-  image-rendering: -webkit-optimize-contrast;
-  image-rendering: pixelated;
-  image-rendering: crisp-edges;
 }
 
 ::-webkit-scrollbar {
@@ -292,10 +291,6 @@ a:hover {
 
 .preview-pane img {
   display: block !important;
-  image-rendering: -moz-crisp-edges;
-  image-rendering: -webkit-optimize-contrast;
-  image-rendering: pixelated;
-  image-rendering: crisp-edges;
 }
 @media (max-width: 768px) {
   .main-layout {
