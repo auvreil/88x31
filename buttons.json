@@ -110,7 +110,7 @@
   { "name": "nothingness", "url": "https://thenothingness.space", "image": "./buttons/nothingness.png", "category": "webrings" },
   { "name": "vsnet", "url": "https://vintagestory.network", "image": "./buttons/vsnet.png", "category": "webrings" },
   { "name": "juette", "url": "https://therift.vip", "image": "./buttons/juette.gif", "category": "uncategorized" },
-  { "name": "jeretyto", "url": "./pageDisabled.txt", "image": "./buttons/Disabled.gif", "category": "personal", "_comment": " org domain https://jeretyto.nekoweb.org/"
+  { "name": "jeretyto", "url": "./pageDisabled.txt", "image": "./buttons/Disabled.gif", "category": "personal", "_comment": " org domain https://jeretyto.nekoweb.org/" },
   { "name": "lms", "url": "https://lotusmoonstart.neocities.org/", "image": "./buttons/lms.png", "category": "uncategorized" },
   { "name": "pepperbutton", "url": "https://mildlypepper.net/", "image": "./buttons/pepperbutton.png", "category": "uncategorized" },
   { "name": "necro", "url": "https://necrodancing.neocities.org/main", "image": "./buttons/necro.gif", "category": "uncategorized" },
