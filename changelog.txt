@@ -1,0 +1,9 @@
+This is a WIP changelog page for The 88x31 Project :)
+Of course, this is very different from the main page. I will make this actually look good later, but for now it's just a text file.
+
+
+
+
+{7/20/2026}
+| Changed all outdated domains to their new redirects
+| Added 1 new site
