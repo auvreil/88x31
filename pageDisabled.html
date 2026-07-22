@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Page Disabled | The 88x31 Project</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=VT323&family=Silkscreen:wght@400;700&display=swap');
+
+    :root {
+      --bg: #0a0a14; 
+      --bg2: #0f0f1e;
+      --panel: #0d0d22;
+      --border: #2a2a5a;
+      --accent1: #ff79c6;
+      --accent2: #bd93f9;
+      --accent3: #50fa7b;
+      --accent4: #ffb86c;
+      --accent5: #8be9fd;
+      --text: #f8f8f2;
+      --text-dim: #a0a0c0;
+      --text-muted: #6060a0;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'VT323', monospace;
+      font-size: 20px;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 600px;
+      width: 100%;
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      padding: 30px;
+      border-radius: 4px;
+    }
+
+    .site-header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-family: 'VT323', monospace;
+      font-size: clamp(28px, 5vw, 42px);
+      color: var(--accent1);
+      letter-spacing: 2px;
+      animation: flicker 8s ease-in-out infinite;
+      margin-bottom: 4px;
+    }
+
+    h1.subtitle {
+      font-size: clamp(16px, 3vw, 22px);
+      color: var(--text-muted);
+      animation-delay: 3s;
+    }
+
+    h2 {
+      font-family: 'Silkscreen', monospace;
+      font-size: 13px;
+      color: var(--accent3);
+      margin-top: 25px;
+      margin-bottom: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    h2.notice {
+      font-family: 'VT323', monospace;
+      font-size: 18px;
+      color: var(--accent4);
+      text-align: center;
+      margin: 0 auto 20px;
+      padding: 6px 12px;
+      border-left: 3px solid var(--accent4);
+      background: var(--panel);
+    }
+
+    ul {
+      margin-left: 20px;
+      color: var(--text-dim);
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: var(--accent5);
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: var(--accent1);
+    }
+
+    .footer-link {
+      margin-top: 30px;
+      text-align: center;
+      font-family: 'Silkscreen', monospace;
+      font-size: 11px;
+    }
+
+    @keyframes flicker {
+      0%, 95%, 100% { opacity: 1; }
+      96% { opacity: 0.8; }
+      97% { opacity: 1; }
+      98% { opacity: 0.7; }
+      99% { opacity: 1; }
+    }
+
+    ::selection {
+      background: var(--accent2);
+      color: var(--bg);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header class="site-header">
+      <h1>404: PAGE DISABLED</h1>
+      <h1 class="subtitle">The 88x31 Project</h1>
+    </header>
+
+    <h2 class="notice">
+      Sorry, but this page has been temporarily disabled by The 88x31 Project.
+    </h2>
+
+    <h2>Why?</h2>
+    <p style="color: var(--text-dim); margin-bottom: 10px;">This page is likely going through one or more of the following:</p>
+    <ul>
+      <li>Being moved and coordinated with The 88x31 Project.</li>
+      <li>Being reviewed due to possible malicious or inappropriate conduct.</li>
+      <li>Down, possibly permanently (awaiting removal after a certain period if not coming back up or if no new domain is found). (see footer)</li>
+    </ul>
+
+    <div class="footer-link">
+      <a href="https://auvreil.github.io/88x31/">&larr; Return to The 88x31 Project</a>
+      <p>Removal happens after around 8 weeks of inactivity of domain.</p>
+    </div>
+  </div>
+
+</body>
+</html>
