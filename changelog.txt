@@ -2,14 +2,17 @@ This is a WIP changelog page for The 88x31 Project :)
 Of course, this is very different from the main page. I will make this actually look good later, but for now it's just a text file.
 
 
-
+{7/22/2026}
+| Categorized more buttons, bit at it quite a lot
+| Cleaned up a bit'o'stuff
+| Created a disabled HTML page (replacing the .txt), but it's still WIP. Don't know how happy I am with it right now.
 
 {7/20/2026}
 | Changed all outdated domains to their new redirects
-| Added new site(s)
-| Changed tons of sites' genres
+| Added a new site
+| Categorized tons of different buttons
 | Sorted more uncategorized sites
 | Disabled multiple sites
 | Added a webrings category 
-| Created a disabled page file
-| Created a changelog page file
+| Created a disabled page file (WIP)
+| Created a changelog page file (WIP)
