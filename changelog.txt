@@ -1,6 +1,8 @@
 This is a WIP changelog page for The 88x31 Project :)
 Of course, this is very different from the main page. I will make this actually look good later, but for now it's just a text file.
 
+{7/24/2026}
+| Categorized all the remaining buttons, figuring out what I wanna do with the ones that don't fit current categories yet.
 
 {7/22/2026}
 | Categorized more buttons, bit at it quite a lot
