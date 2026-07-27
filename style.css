@@ -39,14 +39,13 @@ body {
   padding: 0 16px 60px;
 }
 
-/* Sidebar Wrapper */
+/* sb wrapr */
 .sidebar {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
-
-/* Individual Content Blocks inside the Sidebar */
+ /* icc */
 .sidebar-box {
   background: var(--bg2);
   border: 1px solid var(--border);
@@ -135,6 +134,7 @@ h2.notice {
   border-bottom-color: var(--accent1);
 }
 
+
 h2:not(.notice) {
   font-family: 'Silkscreen', monospace;
   font-size: 11px;
@@ -143,18 +143,18 @@ h2:not(.notice) {
   margin-bottom: 12px;
   letter-spacing: 2px;
   text-transform: uppercase;
+  text-align: center; 
 }
 
-hr {
-  border: none;
-  border-top: 1px solid var(--border);
-  margin: 10px 0;
-  opacity: 0.5;
+h2:not(.notice) + p,
+#featured + p {
+  text-align: center;
 }
 
 .button-grid {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center; 
   gap: 8px;
   margin-top: 10px;
   padding: 12px;
@@ -169,11 +169,6 @@ hr {
   border: 1px solid var(--border);
   padding: 1px;
   background: var(--panel);
-  /*
-  width: 92px;  
-  height: 35px;  
-  box-sizing: border-box; 
-  */
 }
 
 .button-grid img {
@@ -292,6 +287,7 @@ a:hover {
 .preview-pane img {
   display: block !important;
 }
+
 @media (max-width: 768px) {
   .main-layout {
     grid-template-columns: 1fr; 
