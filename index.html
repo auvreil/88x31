@@ -50,7 +50,18 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <title>The 88x31 Project | TXP</title>
   <link rel="stylesheet" href="style.css">
   <link rel="me" href="https://github.com/auvreil"/>
-  
+  <style>  @import url('https://googleapis.com'); 
+h2, 
+h2 + p {
+    text-align: center;
+}
+.button-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+     </style>
   <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
@@ -59,7 +70,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <meta name="google-site-verification" content="83MxlgPxMoNopOTym8g60zJydQPCOrL8RP6qxpCy4mI" /> 
 </head>
 <body>
-<style>  @import url('https://googleapis.com'); </style>
+
 <div class="stars"></div>
 
 <div class="site-header">
@@ -117,15 +128,11 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
      
- <h2 style="color: gold; text-align: center;" id="featured">FEATURED BUTTONS</h2>
-    <p style="font-family: 'Alex Brush', cursive; font-size: 14px; color: gold; margin-top: -10px; margin-bottom: 15px; text-align: center;">
+<h2 style="color: gold;" id="featured">FEATURED BUTTONS</h2>
+    <p style="font-family: 'Alex Brush', cursive; font-size: 14px; color: gold; margin-top: -10px; margin-bottom: 15px;">
       Changes monthly!
     </p>
-    <div class="button-grid" id="grid-featured" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 5px;"></div>
-
-
-
-
+    <div class="button-grid" id="grid-featured"></div>
 
      
     <h2 id="friends">Friends / Submissions</h2>
